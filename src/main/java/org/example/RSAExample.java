@@ -33,6 +33,7 @@ public class RSAExample {
         keyPairGenerator.initialize(2048); // Key uzunligi
         return keyPairGenerator.generateKeyPair();
 
+
     }
 
     // Matnni RSA orqali shifrlash
