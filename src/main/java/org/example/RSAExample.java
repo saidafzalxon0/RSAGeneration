@@ -32,8 +32,6 @@ public class RSAExample {
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
         keyPairGenerator.initialize(2048); // Key uzunligi
         return keyPairGenerator.generateKeyPair();
-
-
     }
 
     // Matnni RSA orqali shifrlash
